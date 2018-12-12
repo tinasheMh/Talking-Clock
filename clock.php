@@ -35,7 +35,7 @@ function hourString($hour) {
     $hourToString = null;
     $hourToTwelve = array();
     if($hour < 1) {
-        $hourToTwelve = explode('', $hour);
+        $hourToTwelve = explode('0', $hour);
         $hour = $hourToTwelve[1];
     }
 
